@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department_Description__c</fullName>
+    <description>General information and description of the department’s functions.</description>
+    <inlineHelpText>General information and description of the department’s functions.</inlineHelpText>
+    <label>Department Description</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>
