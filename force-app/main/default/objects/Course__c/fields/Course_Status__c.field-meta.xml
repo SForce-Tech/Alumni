@@ -10,9 +10,19 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Active, Inactive, Completed</fullName>
+                <fullName>Active</fullName>
                 <default>false</default>
-                <label>Active, Inactive, Completed</label>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <label>Inactive</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
             </value>
         </valueSetDefinition>
     </valueSet>
