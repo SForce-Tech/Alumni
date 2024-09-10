@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valid_Grade</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(Grade__c  &gt;= 0 , Grade__c  &lt;= 10)</errorConditionFormula>
+    <errorMessage>The grade must be greater or equal to 0, or less or equal to 10</errorMessage>
+</ValidationRule>
